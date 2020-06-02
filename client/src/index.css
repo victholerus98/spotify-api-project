@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: rgb(20, 20, 20);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.whatsplayin {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.nowPlaying {
+  padding: 20px;
+  margin: 25px;
+  color: rgb(196, 177, 199);
+  font-size: 2rem;
+}
+
+.typist {
+  font-size: 3rem;
+  color: rgb(196, 177, 199);
+  margin: 50px;
+}
+
+button {
+  color: rgb(196, 177, 199);
+  padding: 20px;
+  margin: 50px;
+  background-color: black;
+  font-size: 1rem;
+  border: 2px solid rgb(196, 177, 199);
+  font-weight: 500;
+}
+button:hover {
+  background-color: rgb(196, 177, 199);
+  color: black;
+  border: 2px solid black;
+}
